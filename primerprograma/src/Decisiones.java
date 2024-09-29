@@ -3,8 +3,8 @@ public class Decisiones {
     public static void main(String[] args) {
         int fechaDeLanzamineto = 1999;
         boolean incluidoEnElPlan = true;
-        double notaDeLaPelicula = 8.2;
-        String plan = "Plus";
+        // double notaDeLaPelicula = 8.2;
+        String plan = "plus";
 
         if (fechaDeLanzamineto >= 2022) {
             System.out.println("Peliculas más Populares");
@@ -12,7 +12,7 @@ public class Decisiones {
             System.out.println("Peliculas Retro que aun vale la pena ver");
         }
 
-        if (incluidoEnElPlan || plan == "Plus") {
+        if (incluidoEnElPlan && "plus".equals(plan)) {
             System.out.println("Disfrute de su pelicula");
         } else {
             System.out.println("Pelicula no dispoonible para su plan actual");

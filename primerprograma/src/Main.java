@@ -8,16 +8,14 @@ public class Main {
          System.out.println(String.format("Mi nombre es %s, tengo %d años y hoy gasté %.2f dolares", nombre, edad, valor)); */
 
         int fechaDeLanzamineto = 1999;
-        boolean incluidoEnElPlan = true;
-        double notaDeLaPelicula = 8.2;
 
         double media = (8.2 + 6.0 + 9.0) / 3;
         System.out.println(media);
 
         String sinopsis = """
-                Matriz es una paradoja
-                La mejor pelicula del fin del milenio
-                Fué lanzada en: """ + " " + fechaDeLanzamineto;
+                          Matriz es una paradoja
+                          La mejor pelicula del fin del milenio
+                          Fu\u00e9 lanzada en: """ + fechaDeLanzamineto;
 
         System.out.println(sinopsis);
 
