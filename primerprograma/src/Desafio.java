@@ -6,7 +6,8 @@ public class Desafio {
         String cliente = "Inri Alva", tipodeCuenta = "Ahorros", salir="";
         double saldoDisponible = 5000, retirarValor = 0, deposita = 0;
         int qCelular = 0, qCodigo = 0, preguntar = 0;
-        int celular = 300, codigo = 1234;
+        int celular = 300123456;
+        int codigo = 1234;
 
         do {
             System.out.println("");
