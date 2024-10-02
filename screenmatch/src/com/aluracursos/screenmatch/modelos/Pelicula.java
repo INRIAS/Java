@@ -4,8 +4,8 @@ public class Pelicula {
     int duracionEnMinutos;
     boolean incluidoEnElPlan;
     double nota;
-    double sumaDeEvaluaciones;
-    int totalEvaluaciones;
+    private double sumaDeEvaluaciones;
+    private int totalEvaluaciones;
 
     void muestraFichaTecnica(String nombre, int fechaDeLanzamiento, int duracionEnMinutos, double nota) {
         this.nombre = nombre;
@@ -26,5 +26,13 @@ public class Pelicula {
     
     void calculaMedia(){
          System.out.println("Media de las peliculas: " + sumaDeEvaluaciones/totalEvaluaciones);
+    }
+
+    double getSumaDeEvaluaciones(){
+        return sumaDeEvaluaciones;
+    }
+
+    int getTotalEvaluaciones(){
+        return totalEvaluaciones;
     }
 }
