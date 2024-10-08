@@ -32,6 +32,14 @@ public class Episodio implements Clasificacion {
         this.serie = serie;
     }
 
+    public int getTotalVisualizaciones() {
+        return totalVisualizaciones;
+    }
+
+    public void setTotalVisualizaciones(int totalVisualizaciones) {
+        this.totalVisualizaciones = totalVisualizaciones;
+    }
+
     @Override
     public int getClasificacion() {
         if (totalVisualizaciones > 100) {
@@ -39,5 +47,4 @@ public class Episodio implements Clasificacion {
         } else
             return 2;
     }
-
 }
