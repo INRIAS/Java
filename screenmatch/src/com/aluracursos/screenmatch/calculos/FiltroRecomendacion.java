@@ -5,7 +5,7 @@ public class FiltroRecomendacion {
         if (clasificacion.getClasificacion()>=4) {
             System.out.println("Excelente recomendación");
         }else if (clasificacion.getClasificacion() >= 2) {
-            System.out.println("Poopulares del momento");
+            System.out.println("Populares del momento");
         }else{
             System.out.println("Agregalo a tu lista de espera");
         }
