@@ -1,6 +1,5 @@
 package conection;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -21,6 +20,7 @@ public class ConsultaPelicula {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
             return new Gson().fromJson(response.body(), Pelicula.class);
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
