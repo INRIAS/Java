@@ -1,18 +1,31 @@
-## Getting Started
+## Currency Coverte (Conversor de Divisas).
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Un **conversor de divisas** desarrollado en Java que integra tasas de cambio en tiempo real a través de una API, permitiendo distintas operaciones de conversión.
 
-## Folder Structure
+### Requisitos
+- **Java 17** o superior.
+- **Gson** (librería para manipulación de JSON)  
+  **Nota**: agregar en Referencias de Bibliotecas de Java.
 
-The workspace contains two folders by default, where:
+### Instalación y Ejecución
+1. **Clonar** el repositorio o descargar los archivos del proyecto.
+2. **Instalar** la librería Gson en el entorno de desarrollo.
+### Uso
+1. El menú interactivo permite seleccionar pares de divisas predeterminados para realizar conversiones.
+2. Seleccionada la opción y cantidad para la conversión y se muestra el resultado en pantalla.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Opciones de Conversión
+1. ARS → USD  
+2. USD → ARS  
+3. BRL → USD  
+4. USD → BRL  
+5. COP → USD  
+6. USD → COP  
+0. Salir  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Divisas 
+Código
+- ARS---> Peso argentino        
+- BRL---> Real brasileño                      
+- COP---> Peso colombiano       
+- USD---> Dólar estadounidense  

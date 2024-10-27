@@ -40,5 +40,6 @@ public class Principal {
         }
         System.out.println("\n************************************");
         System.out.println("\nSaldo en tarjeta de credito: " + tarjeta.getSaldo());
+        lectura.close();
     }
 }

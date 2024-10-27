@@ -12,10 +12,7 @@ import record.Moneda;
 
 public class ConexionApi {
     public Moneda parMoneda(String baseCode, String targetCode,double amount) throws IOException, InterruptedException {
-        // String yourApiKeys = "e081013ad7131dca73876f9e";
-
-        // URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" +
-        // yourApiKeys + "/pair/" + baseCode + "/" + targetCode);
+        
         URI direccion = URI.create(
                 "https://v6.exchangerate-api.com/v6/e081013ad7131dca73876f9e/pair/" + baseCode + "/" + targetCode + "/" + amount);
 

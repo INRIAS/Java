@@ -19,33 +19,19 @@ public class MonedaConstructor {
         return actual;
     }
 
-    public void setActual(String actual) {
-        this.actual = actual;
-    }
-
     public String getCambio() {
         return cambio;
-    }
-
-    public void setCambio(String cambio) {
-        this.cambio = cambio;
     }
 
     public double getTasa() {
         return tasa;
     }
 
-    public void setTasa(double tasa) {
-        this.tasa = tasa;
-    }
 
     public double getConversion() {
         return conversion;
     }
 
-    public void setConversion(double conversion) {
-        this.conversion = conversion;
-    }
 
     @Override
     public String toString() {
